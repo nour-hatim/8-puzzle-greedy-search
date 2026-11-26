@@ -20,10 +20,10 @@ Goal state:
 
 | Method | Moves in solution | States expanded |
 |---|---|---|
-| Greedy, h1 misplaced | 53.8 | 557.5 |
+| Greedy, h1 misplaced | 41.3 | 557.5 |
 | Greedy, **h2 Manhattan** | **38.2** | **273.7** |
-| Greedy, h3 row + column | longest paths | 322.9 |
-| BFS (optimal) | 18.6 | ~48,000 |
+| Greedy, h3 row + column | 53.8 | 322.9 |
+| BFS (optimal) | 18.6 | 47,965 |
 
 - Manhattan distance was the best heuristic on both speed and path length.
 - Greedy search expands about 86–175× fewer states than BFS, but its solutions are about twice as long as the optimal ones because it ignores path cost.
